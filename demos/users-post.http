@@ -1,24 +1,8 @@
 POST  http://localhost:3000/users/
+Content-Type: application/json
 
 {
-  "name": "Jahir",
+  "name": "Jahir Ballesteros",
   "username": "Jahir",
-  "email": "Jahir123@gmail.com",
-  "address": {
-    "street": "Skiles Walks",
-    "suite": "Suite 351",
-    "city": "bronx",
-    "zipcode": "10462",
-    "geo": {
-      "lat": "-31.8129",
-      "lng": "62.5342"
-    }
-  },
-  "phone": "(254)954-1289",
-  "website": "demarco.info",
-  "company": {
-    "name": "Keebler LLC",
-    "catchPhrase": "User-centric fault-tolerant solution",
-    "bs": "revolutionize end-to-end systems"
-  }
+  "email": "Jahir123@gmail.com"
 }
